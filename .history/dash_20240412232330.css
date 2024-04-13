@@ -1,0 +1,115 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* Navbar Start */
+#navBar {
+  padding: 20px;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+}
+.menu {
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu ul li a {
+  color: #222;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all linear 0.3s;
+}
+.menu ul li a:hover {
+  color: #23a859;
+}
+/* Navbar End */
+
+/* Dashboard Form Start */
+.dashboard_form {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgba(35, 169, 89, 0.445);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.dashboard_inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.dashboard_inputs input {
+  width: 500px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #23a859;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+}
+.submit_btn {
+  margin-top: 10px;
+}
+.submit_btn button {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: #23a859;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: all linear 0.3s;
+  font-family: "Nunito", sans-serif;
+}
+.submit_btn button:hover {
+  color: #222;
+}
+/* Dashboard Form End */
+
+/* Dashboard Details Start */
+.student_details {
+  font-family: "Nunito", sans-serif;
+  line-height: 140%;
+  color: #222;
+}
+.score {
+  font-weight: 600;
+  color: #23a859;
+}
+.marks_info {
+  padding-top: 20px;
+}
+/* Dashboard Details End */

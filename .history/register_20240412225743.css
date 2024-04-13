@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e6bebe1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: url('COL-BACK.jpg'); /* Adjust path to your image */
+    background-size: cover;
+    padding: 50px 0;
+}
+
+header h1 {
+    color: #333; /* Changed color to a darker shade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form fieldset {
+    margin-bottom: 20px;
+}
+
+form fieldset legend {
+    font-weight: bold;
+    color: #d4000d;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #d4000d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d4000d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff3f3f;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #888;
+}

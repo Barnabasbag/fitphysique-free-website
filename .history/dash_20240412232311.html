@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav id="navBar">
+      <div class="container">
+        <div class="nav_wrapper">
+          <div class="logo">
+            <picture>
+              <a href="#"><img src="./images/logo.png" alt="" /></a>
+            </picture>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">student</a></li>
+              <li><a href="#">profile</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Dashboard Start -->
+    <section id="dashBoard">
+      <div class="container">
+        <div class="dashboard_form">
+          <form action="" class="students_form">
+            <div class="dashboard_inputs">
+              <input
+                class="firstName"
+                type="text"
+                placeholder="Enter First Name"
+              />
+              <input
+                class="lastName"
+                type="text"
+                placeholder="Enter Last Name"
+              />
+              <input class="sId" type="text" placeholder="Enter Student ID" />
+              <input class="className" type="text" placeholder="Enter Class" />
+              <input
+                class="session"
+                type="text"
+                placeholder="Enter Academic Session"
+              />
+              <input class="bangla" type="text" placeholder="Mark of Bengali" />
+              <input
+                class="english"
+                type="text"
+                placeholder="Mark of English"
+              />
+              <input
+                class="math"
+                type="text"
+                placeholder="Mark of Mathematics"
+              />
+              <input
+                class="physics"
+                type="text"
+                placeholder="Mark of Physics"
+              />
+              <input
+                class="chemistry"
+                type="text"
+                placeholder="Mark of Chemistry"
+              />
+              <input
+                class="biology"
+                type="text"
+                placeholder="Mark of Biology"
+              />
+            </div>
+            <div class="submit_btn">
+              <button class="submitBtn" type="submit">Submit</button>
+            </div>
+          </form>
+          <div class="dashboard_details">
+            <div class="student_info">
+              <h2 class="studentName student_details"></h2>
+              <h3 class="idNumber student_details"></h3>
+              <p class="studnetClass student_details"></p>
+              <p class="studentSession student_details"></p>
+              <h4 class="totalMark student_details"></h4>
+            </div>
+            <div class="marks_info">
+              <canvas class="markChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dashboard End -->
+
+    <!-- ChartJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom JS File -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

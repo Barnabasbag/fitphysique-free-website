@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Dashboard</h1>
+        </header>
+        <div class="user-list">
+            <% users.forEach(user => { %>
+                <div class="user">
+                    <h2><%= user.full_name %></h2>
+                    <p><strong>Date of Birth:</strong> <%= user.dob %></p>
+                    <p><strong>Gender:</strong> <%= user.gender %></p>
+                    <!-- Add more user details here -->
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</body>
+</html>

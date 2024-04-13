@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #d4000d;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.college-name {
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.login-left {
+    flex: 1;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #d4000d;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4000d;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #ff3f3f;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d4000d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff3f3f;
+}
+
+.signup-link {
+    color: #ff3f3f;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.login-right {
+    flex: 1;
+}
+
+.campus-image {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
